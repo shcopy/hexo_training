@@ -34,7 +34,7 @@
 <meta name="generator" content="Hexo 7.2.0"></head>
 
 <body>
-  <div id="container">
+  <div id="container" class="">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -51,7 +51,7 @@
         
           <a class="main-nav-link" href="/hexo_training/">首頁</a>
         
-          <a class="main-nav-link" href="/hexo_training/archives">部落格</a>
+          <a class="main-nav-link" href="/hexo_training/blog">部落格</a>
         
           <a class="main-nav-link" href="/hexo_training/about">關於我</a>
         
@@ -180,7 +180,7 @@
   
     <a href="/hexo_training/" class="mobile-nav-link">首頁</a>
   
-    <a href="/hexo_training/archives" class="mobile-nav-link">部落格</a>
+    <a href="/hexo_training/blog" class="mobile-nav-link">部落格</a>
   
     <a href="/hexo_training/about" class="mobile-nav-link">關於我</a>
   
@@ -205,5 +205,18 @@
 
 
   </div>
+  <style>
+    .fullPage #main {
+      width: 100%;
+      float: none;
+      margin: 0;
+    }
+
+    .fullPage .article-meta, 
+    .fullPage .article-header,
+    .fullPage  .article-footer {
+      display: none;
+    }
+  </style>
 </body>
 </html>
